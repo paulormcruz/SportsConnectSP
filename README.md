@@ -8,4 +8,4 @@ O aplicativo "SportsConnect" tem como objetivo disponibilizar uma variedade de i
 
 ## Tópicos a seguir:
 
-Explicação sobre o aplicativo: (https://github.com/paulormcruz/SportsConnect.wiki.git)
+➜ [Proposta do aplicativo e intuito das tela](https://github.com/paulormcruz/SportsConnect.wiki.git)
