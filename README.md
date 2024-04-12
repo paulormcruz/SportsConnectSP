@@ -8,4 +8,5 @@ O aplicativo "SportsConnect" tem como objetivo disponibilizar uma variedade de i
 
 ## Tópicos a seguir:
 
-➜ [Proposta do aplicativo e intuito das tela](https://github.com/paulormcruz/SportsConnect/wiki/Explica%C3%A7%C3%A3o-sobre-o-Aplicativo)
+➜ [Proposta do aplicativo e intuito das telas](https://github.com/paulormcruz/SportsConnect/wiki/Explica%C3%A7%C3%A3o-sobre-o-Aplicativo)
+➜ [Visão geral – Widgets](https://github.com/paulormcruz/SportsConnect/wiki/Widgets-utilizados)
