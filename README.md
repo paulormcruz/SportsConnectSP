@@ -9,4 +9,5 @@ O aplicativo "SportsConnectSP" tem como objetivo disponibilizar uma variedade de
 ## Tópicos a seguir:
 
 ➜ [Proposta do aplicativo e intuito das telas](https://github.com/paulormcruz/SportsConnect/wiki/Explica%C3%A7%C3%A3o-sobre-o-Aplicativo) <br>
-➜ [Visão geral – Widgets](https://github.com/paulormcruz/SportsConnect/wiki/Widgets-utilizados)
+➜ [Visão geral – Widgets](https://github.com/paulormcruz/SportsConnect/wiki/Widgets-utilizados) <br>
+➜ [Telas seleciondadas da aplicação – MVC](https://github.com/paulormcruz/SportsConnect/wiki/MVP-%E2%80%93-Minimum-Viable-Product)
