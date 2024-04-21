@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # sportsconnectsp
 
 A new Flutter project.
@@ -16,4 +16,3 @@ O aplicativo "SportsConnectSP" tem como objetivo disponibilizar uma variedade de
 ➜ [Proposta do aplicativo, intuito das telas e Mapa de Navegação](https://github.com/paulormcruz/SportsConnect/wiki/Explica%C3%A7%C3%A3o-sobre-o-Aplicativo) <br>
 ➜ [Visão geral – Widgets e Protótipo](https://github.com/paulormcruz/SportsConnect/wiki/Widgets-utilizados-(especifica%C3%A7%C3%B5es)-e-Prot%C3%B3tipo) <br>
 ➜ [Telas selecionadas da aplicação – MVC](https://github.com/paulormcruz/SportsConnect/wiki/MVP-%E2%80%93-Minimum-Viable-Product)
->>>>>>> b367067f35f2789c4766847d212b6bb11e7c7e12
