@@ -1,8 +1,4 @@
 
-# sportsconnectsp
-
-A new Flutter project.
-=======
 # SportsConnectSP
 
 > **Nome:** Paulo Ricardo Matiasso Cruz <br>
