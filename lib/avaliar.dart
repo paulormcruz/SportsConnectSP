@@ -101,8 +101,22 @@ class _StarRatingScreenState extends State<StarRatingScreen> {
                   },
                   style: ButtonStyle(
                     foregroundColor: MaterialStateProperty.all<Color>(Colors.black),
+                    shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                      RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(18.0), 
+                      ),
+                    ),
                   ),
-                  child: const Text('Salvar'),
+                  child: const SizedBox( // Usando SizedBox para envolver o texto
+                    width: 125, // Largura total do botão
+                    height: 45.0, // Altura do botão
+                    child: Center(
+                      child: Text(
+                        'Salvar',
+                        style: TextStyle(fontSize: 25.0), 
+                      ),
+                    ),
+                  ),
                 ),
               ],
             ),
@@ -111,12 +125,12 @@ class _StarRatingScreenState extends State<StarRatingScreen> {
             top: 0,
             right: 20,
             child: IconButton(
-            onPressed: () {
-              Navigator.of(context).pushNamed('/WelcomeScreen');
-            },
-            icon: const Icon(Icons.arrow_circle_right_rounded),
-            iconSize: 42,
-          ),
+              onPressed: () {
+                Navigator.of(context).pushNamed('/WelcomeScreen');
+              },
+              icon: const Icon(Icons.arrow_circle_right_rounded),
+              iconSize: 42,
+            ),
           ),
         ],
       ),

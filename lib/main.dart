@@ -24,7 +24,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
 
@@ -33,7 +32,7 @@ class WelcomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Container(),
-        backgroundColor: const Color.fromARGB(255, 120, 127, 134), 
+        backgroundColor: const Color.fromARGB(255, 120, 127, 134),
       ),
       body: Stack(
         children: [
@@ -96,89 +95,92 @@ class WelcomeScreen extends StatelessWidget {
         ],
       ),
       drawer: Drawer(
-        child: ListView(
-          padding: EdgeInsets.zero,
-          children: [
-            DrawerHeader(
-              decoration: const BoxDecoration(),
-              child: SizedBox(
-                height: 180,
-                child: Image.asset(
-                  'assets/FIGURA.png',
-                  fit: BoxFit.contain,
+        child: Container(
+          color: const Color.fromARGB(255, 218, 212, 212),
+          child: ListView(
+            padding: EdgeInsets.zero,
+            children: [
+              DrawerHeader(
+                decoration: const BoxDecoration(),
+                child: SizedBox(
+                  height: 180,
+                  child: Image.asset(
+                    'assets/FIGURA.png',
+                    fit: BoxFit.contain,
+                  ),
                 ),
               ),
-            ),
-            ListTile(
-              leading: const Icon(Icons.home),
-              title: const Text(
-                'Home',
-                style: TextStyle(
-                  color: Colors.black,
-                  fontWeight: FontWeight.bold,
+              ListTile(
+                leading: const Icon(Icons.home),
+                title: const Text(
+                  'Home',
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
+                onTap: () {
+                  Navigator.pushNamed(context, '/WelcomeScreen');
+                },
               ),
-              onTap: () {
-                Navigator.pushNamed(context, '/WelcomeScreen');
-              },
-            ),
-            const Divider(),
-            ListTile(
-              leading: const Icon(Icons.info_rounded),
-              title: const Text(
-                'Informações',
-                style: TextStyle(
-                  color: Colors.black,
-                  fontWeight: FontWeight.bold,
+              const Divider(),
+              ListTile(
+                leading: const Icon(Icons.info_rounded),
+                title: const Text(
+                  'Informações',
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
+                onTap: () {
+                  Navigator.pushNamed(context, '/information');
+                },
               ),
-              onTap: () {
-                Navigator.pushNamed(context, '/information');
-              },
-            ),
-            const Divider(),
-            ListTile(
-              leading: const Icon(Icons.fitness_center),
-              title: const Text(
-                'Unidades de CEs por região',
-                style: TextStyle(
-                  color: Colors.black,
-                  fontWeight: FontWeight.bold,
+              const Divider(),
+              ListTile(
+                leading: const Icon(Icons.fitness_center),
+                title: const Text(
+                  'Unidades de CEs por região',
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
+                onTap: () {
+                  Navigator.pushNamed(context, '/sports_centers');
+                },
               ),
-              onTap: () {
-                Navigator.pushNamed(context, '/sports_centers');
-              },
-            ),
-            const Divider(),
-            ListTile(
-              leading: const Icon(Icons.help_center),
-              title: const Text(
-                'Como solicitar a carteirinha?',
-                style: TextStyle(
-                  color: Colors.black,
-                  fontWeight: FontWeight.bold,
+              const Divider(),
+              ListTile(
+                leading: const Icon(Icons.help_center),
+                title: const Text(
+                  'Como solicitar a carteirinha?',
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
+                onTap: () {
+                  Navigator.pushNamed(context, '/how_to_request');
+                },
               ),
-              onTap: () {
-                Navigator.pushNamed(context, '/how_to_request');
-              },
-            ),
-            const Divider(),
-            ListTile(
-              leading: const Icon(Icons.star_rate),
-              title: const Text(
-                'Avaliar nosso app',
-                style: TextStyle(
-                  color: Colors.black,
-                  fontWeight: FontWeight.bold,
+              const Divider(),
+              ListTile(
+                leading: const Icon(Icons.star_rate),
+                title: const Text(
+                  'Avaliar nosso app',
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
+                onTap: () {
+                  Navigator.pushNamed(context, '/avaliar');
+                },
               ),
-              onTap: () {
-                Navigator.pushNamed(context, '/avaliar');
-              },
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
