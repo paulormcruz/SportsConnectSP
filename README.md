@@ -2,7 +2,7 @@
 # SportsConnectSP
 
 > **Nome:** Paulo Ricardo Matiasso Cruz <br>
-> **Série/Curso:** 3° M-TEC PI DS
+> **Série/Curso:** 3° M-TEC PI DS <br>
 > **Componente Curricular:** PAM II - Programação de Aplicativos Mobile
 
 ## Descrição do projeto:
