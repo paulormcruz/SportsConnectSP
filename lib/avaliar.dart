@@ -18,6 +18,7 @@ class AvaliarApp extends StatelessWidget {
       home: const StarRatingScreen(),
       routes: {
         '/WelcomeScreen': (context) => const WelcomeScreen(),
+        '/avaliar': (context) => const AvaliarApp(),
       },
     );
   }
