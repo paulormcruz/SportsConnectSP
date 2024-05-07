@@ -1,5 +1,6 @@
 import 'package:sportsconnectsp/avaliar.dart';
 import 'package:flutter/material.dart';
+import 'package:sportsconnectsp/carteirinha.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/WelcomeScreen': (context) => const WelcomeScreen(),
         '/avaliar': (context) => const AvaliarApp(),
+        '/Carteirinha': (context) => const Carteirinha(),
       },
     );
   }
@@ -162,7 +164,7 @@ class WelcomeScreen extends StatelessWidget {
                   ),
                 ),
                 onTap: () {
-                  Navigator.pushNamed(context, '/how_to_request');
+                  Navigator.pushNamed(context, '/Carteirinha');
                 },
               ),
               const Divider(),
