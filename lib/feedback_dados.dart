@@ -23,7 +23,7 @@ class FeedbackDisplay extends StatelessWidget {
             ),
             const SizedBox(height: 8),
             Text(
-              'Email: ${feedback.email}',
+              'E-mail: ${feedback.email}',
               style: const TextStyle(fontSize: 18),
             ),
             const SizedBox(height: 8),
