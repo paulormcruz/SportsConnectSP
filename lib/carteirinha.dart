@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/WelcomeScreen': (context) => const WelcomeScreen(),
-        '/avaliar': (context) => const FeedbackApp(),
+        '/feedback': (context) => const FeedbackApp(),
         '/Carteirinha': (context) => const Carteirinha(),
       },
     );

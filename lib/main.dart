@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       home: const WelcomeScreen(),
       routes: {
         '/WelcomeScreen': (context) => const WelcomeScreen(),
-        '/avaliar': (context) => const FeedbackApp(),
+        '/feedback': (context) => const FeedbackApp(),
         '/Carteirinha': (context) => const Carteirinha(),
       },
     );
@@ -178,7 +178,7 @@ class WelcomeScreen extends StatelessWidget {
                   ),
                 ),
                 onTap: () {
-                  Navigator.pushNamed(context, '/avaliar');
+                  Navigator.pushNamed(context, '/feedback');
                 },
               ),
             ],
