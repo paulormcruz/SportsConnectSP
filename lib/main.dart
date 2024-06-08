@@ -1,4 +1,4 @@
-import 'package:sportsconnectsp/avaliar.dart';
+import 'package:sportsconnectsp/feedback.dart';
 import 'package:flutter/material.dart';
 import 'package:sportsconnectsp/carteirinha.dart';
 
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       home: const WelcomeScreen(),
       routes: {
         '/WelcomeScreen': (context) => const WelcomeScreen(),
-        '/avaliar': (context) => const AvaliarApp(),
+        '/avaliar': (context) => const FeedbackApp(),
         '/Carteirinha': (context) => const Carteirinha(),
       },
     );
@@ -171,7 +171,7 @@ class WelcomeScreen extends StatelessWidget {
               ListTile(
                 leading: const Icon(Icons.star_rate),
                 title: const Text(
-                  'Avaliar nosso app',
+                  'Feedback',
                   style: TextStyle(
                     color: Colors.black,
                     fontWeight: FontWeight.bold,
