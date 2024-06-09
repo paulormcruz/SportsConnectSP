@@ -73,8 +73,17 @@ class _FeedbackFormState extends State<FeedbackForm> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Deixe sua opinião!'),
+        title: const Text(
+          'Deixe sua opinião!',
+          style: TextStyle(
+            fontSize: 24,
+            color: Colors.black,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        backgroundColor: const Color(0xFFC0C0C0),
       ),
+      backgroundColor: const Color.fromARGB(255, 206, 205, 205),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Form(
@@ -95,10 +104,10 @@ class _FeedbackFormState extends State<FeedbackForm> {
                 controller: _emailController,
                 decoration: const InputDecoration(labelText: 'E-mail:'),
                 validator: (value) {
-                  if(value == null || value.isEmpty) {
+                  if (value == null || value.isEmpty) {
                     return 'Digite seu e-mail';
                   }
-                  if(!RegExp(r'^[^@]+@[^@]+\.[^@]+').hasMatch(value)) {
+                  if (!RegExp(r'^[^@]+@[^@]+\.[^@]+').hasMatch(value)) {
                     return 'E-mail inválido, tente novamente!';
                   }
                   return null;
@@ -118,22 +127,27 @@ class _FeedbackFormState extends State<FeedbackForm> {
               const SizedBox(height: 20),
               ElevatedButton(
                 onPressed: _submitFeedback,
+                style: ElevatedButton.styleFrom(
+                  foregroundColor: Colors.white, 
+                  backgroundColor: const Color.fromARGB(255, 108, 143, 160),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(30),
+                  ),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 50,
+                    vertical: 15,
+                  ), 
+                  textStyle: const TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                  ),
+                  elevation: 5, 
+                ),
                 child: const Text('Enviar'),
               ),
             ],
           ),
         ),
-      ),
-      floatingActionButton: Positioned(
-            top: 0,
-            right: 20,
-            child: IconButton(
-              onPressed: () {
-                Navigator.of(context).pushNamed('/WelcomeScreen');
-              },
-              icon: const Icon(Icons.arrow_circle_right_rounded),
-              iconSize: 42,
-         ),
       ),
     );
   }
