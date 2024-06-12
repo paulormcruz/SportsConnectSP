@@ -4,7 +4,7 @@
 > **Nome:** Paulo Ricardo Matiasso Cruz <br>
 > **Nome:** Matheus Militão da Silva <br>
 > **Série/Curso:** 3° M-TEC PI DS <br>
-> **Componente Curricular:** PAM II - Programação de Aplicativos Mobile
+> **Componente Curricular:** PAM II – Programação de Aplicativos Mobile
 
 ## Descrição do projeto:
 <p align="justify">
