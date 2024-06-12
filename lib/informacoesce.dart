@@ -39,7 +39,7 @@ class informacaoce extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 6),
-          Image.asset('assets/piscina.png'),
+          Image.asset('assets/centro-esportivo.png'),
           const SizedBox(height: 6),
 
           const Padding(
@@ -130,7 +130,7 @@ class infocontinuacao extends StatelessWidget {
               ),
               Padding(
                 padding: const EdgeInsets.all(10.0),
-                child: Image.asset('assets/artes_marciais.png'),
+                child: Image.asset('assets/artes-marciais.png'),
               ),
             ]
           ),
@@ -146,6 +146,21 @@ class infocontinuacao extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: Image.asset('assets/natação.png'),
+              ),
+            ]
+          ),
+
+          const SizedBox(height: 10),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Padding(
+                padding: const EdgeInsets.all(1.0),
+                child: Image.asset('assets/dança.png'),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: Image.asset('assets/ginastica.png'),
               ),
             ]
           ),
