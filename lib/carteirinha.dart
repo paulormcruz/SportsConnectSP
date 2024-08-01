@@ -86,7 +86,7 @@ class Carteirinha extends StatelessWidget {
                     Container(
                       alignment: Alignment.center,
                       child: const Text(
-                        'DOCUMENTOS NECESSÁRIOS',
+                        'DOCUMENTOS NECESSÁRIOS:',
                         textAlign: TextAlign.justify,
                         style: TextStyle(
                           fontSize: 25,
