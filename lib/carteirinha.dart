@@ -89,7 +89,7 @@ class Carteirinha extends StatelessWidget {
                         'DOCUMENTOS NECESSÁRIOS:',
                         textAlign: TextAlign.justify,
                         style: TextStyle(
-                          fontSize: 25,
+                          fontSize: 24,
                           fontWeight: FontWeight.bold,
                           color: Colors.green,
                         ),
