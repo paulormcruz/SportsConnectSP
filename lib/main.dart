@@ -1,6 +1,7 @@
 import 'package:sportsconnectsp/feedback.dart';
 import 'package:flutter/material.dart';
 import 'package:sportsconnectsp/carteirinha.dart';
+import 'package:sportsconnectsp/informacoes1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
         '/WelcomeScreen': (context) => const WelcomeScreen(),
         '/feedback': (context) => const FeedbackApp(),
         '/Carteirinha': (context) => const Carteirinha(),
+        '/Informações': (context) => const Informacoes1(),
       },
     );
   }
