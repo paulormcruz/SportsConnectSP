@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sportsconnectsp/informacoes1.dart';
+import 'package:sportsconnectsp/main.dart';
 
 void main() {
   runApp(const MyApp());
@@ -87,19 +87,82 @@ class Informacoes3 extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 16.0), // Espaço entre os cards
-                  const Card(
-                    color: Color(0xFFD0DFD6), // Cor de fundo dos cards
-                    child: ListTile(
-                      title: Text('Card 2'),
-                      subtitle: Text('Detalhes do card 2'),
+                  Card(
+                    color: const Color(0xFFD0DFD6), // Cor de fundo dos cards
+                    child: Padding(
+                      padding: const EdgeInsets.all(16.0),
+                      child: Row(
+                        children: [
+                          // Texto no lado esquerdo com quebra de linha
+                          const Text.rich(
+                            TextSpan(
+                              children: [
+                                TextSpan(
+                                  text: 'INCLUSÃO\n',
+                                  style: TextStyle(
+                                    fontSize: 32.0,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: 'SOCIAL',
+                                  style: TextStyle(
+                                    fontSize: 32.0,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          const SizedBox(width: 16.0), // Espaço entre o texto e a imagem
+                          const Spacer(), // Espaço extra para empurrar a imagem para a direita
+                          // Imagem no lado direito
+                          Image.asset(
+                            'assets/inclusao.png', // Caminho para a imagem
+                            width: 200, // Largura da imagem
+                            height: 200, // Altura da imagem
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                   const SizedBox(height: 16.0), // Espaço entre os cards
-                  const Card(
-                    color: Color(0xFFD0DFD6), // Cor de fundo dos cards
-                    child: ListTile(
-                      title: Text('Card 3'),
-                      subtitle: Text('Detalhes do card 3'),
+                  Card(
+                    color: const Color(0xFFD0DFD6), // Cor de fundo dos cards
+                    child: Padding(
+                      padding: const EdgeInsets.all(16.0),
+                      child: Row(
+                        children: [
+                          // Imagem no lado esquerdo
+                          Image.asset(
+                            'assets/diversidade.png', // Caminho para a imagem
+                            width: 200, // Largura da imagem
+                            height: 200, // Altura da imagem
+                          ),
+                          const SizedBox(width: 16.0), // Espaço entre a imagem e o texto
+                          // Texto no lado direito com quebra de linha
+                          const Text.rich(
+                            TextSpan(
+                              children: [
+                                TextSpan(
+                                  text: 'DIVERSIDADE\n',
+                                  style: TextStyle(
+                                    fontSize: 32.0,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                TextSpan(
+                                  text: 'CULTURAL',
+                                  style: TextStyle(
+                                    fontSize: 32.0,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                 ],
@@ -118,7 +181,7 @@ class Informacoes3 extends StatelessWidget {
                 // Navegar para a próxima tela
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const Informacoes1()),
+                  MaterialPageRoute(builder: (context) => const WelcomeScreen()),
                 );
               },
             ),

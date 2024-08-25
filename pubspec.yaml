@@ -22,15 +22,8 @@ flutter:
   - assets/FIGURA.png
   - assets/fundo.png
   - assets/run.jpg
-  - assets/futebol.png
   - assets/artes-marciais.png
-  - assets/atletismo.png
-  - assets/natação.png
-  - assets/diversidade-cultural.png
-  - assets/inclusão-social.png
   - assets/bem1.png
-  - assets/dança.png
-  - assets/ginastica.png
   - assets/centro-esportivo.png
   - assets/foto1_centro.jpeg
   - assets/natacao1.png
@@ -39,3 +32,9 @@ flutter:
   - assets/danca1.png
   - assets/ginastica1.png
   - assets/futebol1.png
+  - assets/inclusao.png
+  - assets/diversidade.png
+  - assets/rg.jpg
+  - assets/cpf.png
+  - assets/foto3x4.jpg
+  - assets/comprovante.jpg
