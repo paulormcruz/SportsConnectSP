@@ -143,20 +143,6 @@ class WelcomeScreen extends StatelessWidget {
               ),
               const Divider(),
               ListTile(
-                leading: const Icon(Icons.fitness_center),
-                title: const Text(
-                  'Unidades de CEs por região',
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-                onTap: () {
-                  Navigator.pushNamed(context, '/sports_centers');
-                },
-              ),
-              const Divider(),
-              ListTile(
                 leading: const Icon(Icons.help_center),
                 title: const Text(
                   'Como solicitar a carteirinha?',
