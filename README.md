@@ -13,6 +13,6 @@ O aplicativo "SportsConnectSP" tem como objetivo disponibilizar uma variedade de
 
 ➜ [Proposta do aplicativo, intuito das telas e Mapa de Navegação](https://github.com/paulormcruz/SportsConnect/wiki/Explica%C3%A7%C3%A3o-sobre-o-Aplicativo) <br>
 ➜ [Telas selecionadas da aplicação – MVP](https://github.com/paulormcruz/SportsConnectSP/wiki/PRIMEIRA-PARTE-(MVP-%E2%80%93-Minimum-Viable-Product)). <br>
-➜ [VÍDEO FINAL do aplicaitvo)](https://github.com/paulormcruz/SportsConnectSP/wiki/Desenvolvimento-do-projeto). <br>
+➜ [VÍDEO FINAL do aplicativo](https://github.com/paulormcruz/SportsConnectSP/wiki/Desenvolvimento-do-projeto). <br>
 ➜ [Visão geral – Widgets e Protótipo](https://github.com/paulormcruz/SportsConnect/wiki/Widgets-utilizados-(especifica%C3%A7%C3%B5es)-e-Prot%C3%B3tipo) <br>
 ➜ [Sites de apoio para o desenvolvimento do conteúdo e códigos do APP](https://github.com/paulormcruz/SportsConnectSP/wiki/SITES-DE-APOIO).<br>
